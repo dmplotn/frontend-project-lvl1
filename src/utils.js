@@ -1,5 +1,5 @@
-const getRandomInt = (min, max) => (
+export const getRandomInt = (min, max) => (
   Math.round(Math.random() * (max - min) + min)
 );
 
-export default getRandomInt;
+export const getRandomItemFromArray = (arr) => arr[getRandomInt(0, arr.length - 1)];
