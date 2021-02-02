@@ -1,5 +1,5 @@
 import runEngine from '../gameEngine.js';
-import getRandomInt from '../utils.js';
+import { getRandomInt } from '../utils.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 const roundsCount = 3;
